@@ -13,7 +13,7 @@
 
 - Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere [[Paper]](https://arxiv.org/abs/2005.10242)
 
-#### Unsupervised Image (ImageNet) Contrastive Learning
+#### Unsupervised Image Contrastive Learning
 
 - Unsupervised Feature Learning via Non-parameteric Instance Discrimination. [[Paper]](https://arxiv.org/pdf/1805.01978.pdf) 
 
@@ -37,6 +37,10 @@
 
 - What Makes for Good Views for Contrastive Learning? [[Paper]](https://arxiv.org/abs/2005.10243)
 
-#### Supervised Image (ImageNet) Contrastive Learning
+#### Supervised Image Contrastive Learning
 
 - Supervised Contrastive Learning. [[Paper]](https://arxiv.org/abs/2004.11362)
+
+#### Language Contrastive Learning
+
+- A Mutual Information Maximization Perspective of Language Representation Learning. [[Paper]](https://arxiv.org/abs/1910.08350)
