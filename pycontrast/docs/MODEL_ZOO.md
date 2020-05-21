@@ -1,5 +1,5 @@
 ### Model Zoo
-#### ResNet-50 with different methods
+#### (1) ResNet-50 with different methods
 The pretrained weights for ResNet-50 can be found via the dropbox
 link [here](https://www.dropbox.com/sh/87d24jqsl6ra7t2/AABdDXZZBTnMQCBrg1yrQKVCa?dl=0). 
 Both the weights of backbone and projection heads are provided.
@@ -18,7 +18,7 @@ Both the weights of backbone and projection heads are provided.
 *: compared with `InfoMin_800.pth`, model `InfoMin_800_run2.pth` has slightly stronger 
 transfer performance on COCO, and slightly weaker linear accuracy on ImageNet.
 
-#### ResNet and  ResNeXt with InfoMin
+#### (2) ResNet and  ResNeXt with InfoMin
 The pretrained weights for InfoMin with other architectures can be found via the dropbox
 link [here](https://www.dropbox.com/sh/fit1szeqf4kiwob/AADIgPT4EItaMOtGCunBfWXCa?dl=0). 
 Both the weights of backbone and projection heads are provided.
@@ -35,4 +35,4 @@ Both the weights of backbone and projection heads are provided.
 
 *: used to compare with ImageNet pretrained models on COCO.
 
-#### ResNeSt with InfoMin (TODO if resources suffice)
+#### (3) ResNeSt with InfoMin (TODO if resources suffice)
