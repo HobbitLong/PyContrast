@@ -62,10 +62,10 @@ in terms of training pipeline. Question mark `?` means unreported methods which 
 (2) InfoMin with other architectures:
 |          |Arch | # Parameters | Epochs | Accuracy(%) |
 |----------|:----:|:---:|:---:|:---:|
-|  InfoMin         | ResNet-101 | 43M   | 300 |  73.4  |
-|  InfoMin         | ResNet-152 | 58M   | 200 |  73.4  |
-|  InfoMin         | ResNeXt-100 | 87   | 200 |  74.5  | 
-|  InfoMin         | ResNeXt-150 | 120  | 200 |  75.2  |
+|  InfoMin         | ResNet-101  | 43M   | 300 |  73.4  |
+|  InfoMin         | ResNet-152  | 58M   | 200 |  73.4  |
+|  InfoMin         | ResNeXt-100 | 87M   | 200 |  74.5  | 
+|  InfoMin         | ResNeXt-150 | 120M  | 200 |  75.2  |
 
 ### Install Environments
 Please see [INSTALL.md](docs/INSTALL.md).
