@@ -34,7 +34,7 @@ the mixed precision feature.
   - Xinlei Chen, Haoqi Fan, Ross Girshick, Kaiming He
 
 - What Makes for Good Views for Contrastive Learning?
-  [[pdf]](https://arxiv.org/pdf/2003.04297.pdf)
+  [[pdf]](https://arxiv.org/pdf/2005.10243.pdf)
   - Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola 
 
 **(2) The following figure illustrates the similarity and dissimilarity between these methods, 
