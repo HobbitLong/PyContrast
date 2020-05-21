@@ -1,0 +1,14 @@
+# torch
+# https://download.pytorch.org/whl/cu90/torch-0.4.0-cp35-cp35m-linux_x86_64.whl
+https://download.pytorch.org/whl/cu100/torch-1.2.0-cp36-cp36m-manylinux1_x86_64.whl
+torchvision==0.2.1
+numpy>=1.14.3
+scipy==1.2.1
+scikit-image==0.14.3
+pillow==6.1.0
+tensorboard_logger
+matplotlib
+seaborn
+git+https://github.com/pytorch/tnt.git@master
+h5py
+sklearn
