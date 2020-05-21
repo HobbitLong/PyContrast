@@ -46,6 +46,19 @@ in terms of training pipeline. Question mark `?` means unreported methods which 
 </p>
 
 
+### Results on ImageNet linear readout benchmark
+Results with ResNet-50:
+|          |Arch | # Parameters | Epochs | Accuracy(%) |
+|----------|:----:|:---:|:---:|:---:|
+|  InstDis         | ResNet50 | 24M   | 200 |  59.5  |
+|  CMC (no RA)     | ResNet50*| 12M   | 200 |  58.6  |
+|  MoCo            | ResNet50 | 24M   | 200 |  60.8  | 
+|  PIRL            | ResNet50 | 24M   | 200 |  61.7  |
+|  MoCo v2         | ResNet50 | 24M   | 200 |  67.5  |
+|  InfoMin         | ResNet50 | 24M   | 100 |  67.4  |
+|  InfoMin         | ResNet50 | 24M   | 200 |  70.1  |
+|  InfoMin         | ResNet50 | 24M   | 800 |  73.0  |
+
 ### Install Environments
 Please see [INSTALL.md](docs/INSTALL.md).
 
