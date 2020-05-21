@@ -19,6 +19,7 @@ the mixed precision feature.
   
 - Contrastive Multiview Coding.
   [[pdf]](https://arxiv.org/abs/1906.05849) 
+  [[project page]](https://hobbitlong.github.io/CMC/)
   - Yonglong Tian and Dilip Krishnan and Phillip Isola.
 
 - Momentum Contrast for Unsupervised Visual Representation Learning
@@ -35,6 +36,7 @@ the mixed precision feature.
 
 - What Makes for Good Views for Contrastive Learning?
   [[pdf]](https://arxiv.org/pdf/2005.10243.pdf)
+  [[project page]](https://hobbitlong.github.io/InfoMin/)
   - Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola 
 
 **(2) The following figure illustrates the similarity and dissimilarity between these methods, 
