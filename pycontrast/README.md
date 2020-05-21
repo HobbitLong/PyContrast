@@ -11,30 +11,30 @@ the mixed precision feature.
 
 ### Contents
 **(1) For now, it covers the following methods as well as their combinations 
-(the order follows the forward time arrow):**
+(the order follows the forward arrow of time):**
 
-- Unsupervised Feature Learning via Non-parameteric Instance Discrimination
+- (InstDis) Unsupervised Feature Learning via Non-parameteric Instance Discrimination
   [[pdf]](https://arxiv.org/pdf/1805.01978.pdf) 
   - Zhirong Wu, Yuanjun Xiong and X Yu Stella and Dahua Lin.
   
-- Contrastive Multiview Coding.
+- (CMC) Contrastive Multiview Coding.
   [[pdf]](https://arxiv.org/abs/1906.05849) 
   [[project page]](https://hobbitlong.github.io/CMC/)
   - Yonglong Tian and Dilip Krishnan and Phillip Isola.
 
-- Momentum Contrast for Unsupervised Visual Representation Learning
+- (MoCo) Momentum Contrast for Unsupervised Visual Representation Learning
   [[pdf]](https://arxiv.org/pdf/1911.05722.pdf)
   - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick.
 
-- Self-Supervised Learning of Pretext-Invariant Representations
+- (PIRL) Self-Supervised Learning of Pretext-Invariant Representations
   [[pdf]](https://arxiv.org/abs/1912.01991)
   - Ishan Misra, Laurens van der Maaten.
 
-- Improved Baselines with Momentum Contrastive Learning
+- (MoCo v2) Improved Baselines with Momentum Contrastive Learning
   [[pdf]](https://arxiv.org/pdf/2003.04297.pdf)
   - Xinlei Chen, Haoqi Fan, Ross Girshick, Kaiming He
 
-- What Makes for Good Views for Contrastive Learning?
+- (InfoMin) What Makes for Good Views for Contrastive Learning?
   [[pdf]](https://arxiv.org/pdf/2005.10243.pdf)
   [[project page]](https://hobbitlong.github.io/InfoMin/)
   - Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola 
@@ -47,17 +47,25 @@ in terms of training pipeline. Question mark `?` means unreported methods which 
 
 
 ### Results on ImageNet linear readout benchmark
-Results with ResNet-50:
+(1) Results with ResNet-50:
 |          |Arch | # Parameters | Epochs | Accuracy(%) |
 |----------|:----:|:---:|:---:|:---:|
-|  InstDis         | ResNet50 | 24M   | 200 |  59.5  |
-|  CMC (no RA)     | ResNet50*| 12M   | 200 |  58.6  |
-|  MoCo            | ResNet50 | 24M   | 200 |  60.8  | 
-|  PIRL            | ResNet50 | 24M   | 200 |  61.7  |
-|  MoCo v2         | ResNet50 | 24M   | 200 |  67.5  |
-|  InfoMin         | ResNet50 | 24M   | 100 |  67.4  |
-|  InfoMin         | ResNet50 | 24M   | 200 |  70.1  |
-|  InfoMin         | ResNet50 | 24M   | 800 |  73.0  |
+|  InstDis         | ResNet-50 | 24M   | 200 |  59.5  |
+|  CMC (no RA)     | ResNet-50*| 12M   | 200 |  58.6  |
+|  MoCo            | ResNet-50 | 24M   | 200 |  60.8  | 
+|  PIRL            | ResNet-50 | 24M   | 200 |  61.7  |
+|  MoCo v2         | ResNet-50 | 24M   | 200 |  67.5  |
+|  InfoMin         | ResNet-50 | 24M   | 100 |  67.4  |
+|  InfoMin         | ResNet-50 | 24M   | 200 |  70.1  |
+|  InfoMin         | ResNet-50 | 24M   | 800 |  73.0  |
+
+(2) InfoMin with other architectures:
+|          |Arch | # Parameters | Epochs | Accuracy(%) |
+|----------|:----:|:---:|:---:|:---:|
+|  InfoMin         | ResNet-101 | 43M   | 300 |  73.4  |
+|  InfoMin         | ResNet-152 | 58M   | 200 |  73.4  |
+|  InfoMin         | ResNeXt-100 | 87   | 200 |  74.5  | 
+|  InfoMin         | ResNeXt-150 | 120  | 200 |  75.2  |
 
 ### Install Environments
 Please see [INSTALL.md](docs/INSTALL.md).
@@ -70,3 +78,4 @@ For pre-trained models and results, please check [MODEL_ZOO.md](docs/MODEL_ZOO.m
 
 
 
+ 
