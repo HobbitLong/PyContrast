@@ -30,8 +30,8 @@ Both the weights of backbone and projection heads are provided.
 |  InfoMin_resnext101v1_e200.pth         | ResNeXt-101 (32x4d) | (512, 32)  | 200 |
 |  InfoMin_resnext101v2_e200.pth*        | ResNeXt-101 (32x8d) | (512, 32)  | 200 | 
 |  InfoMin_resnext101v3_e200.pth         | ResNeXt-101 (64x4d) | (512, 32)  | 200 | 
-|  InfoMin_resnext152v1_e200.pth*        | ResNeXt-152 (32x4d) | (512, 32)  | 200 | 
-|  InfoMin_resnext152v2_e200.pth         | ResNeXt-152 (32x8d) | (512, 32)  | 200 | 
+|  InfoMin_resnext152v1_e200.pth         | ResNeXt-152 (32x4d) | (512, 32)  | 200 | 
+|  InfoMin_resnext152v2_e200.pth*        | ResNeXt-152 (32x8d) | (512, 32)  | 200 | 
 
 *: used to compare with ImageNet pretrained models on COCO.
 
