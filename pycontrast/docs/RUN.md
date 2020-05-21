@@ -10,6 +10,7 @@ For example, the training command of `CMC` is (take single machine with 8 GPUs a
 ```
 python main_contrast.py \
   --method CMC \
+  --cosine \
   --data_folder /path/to/data \
   --multiprocessing-distributed --world-size 1 --rank 0 \
 ```
