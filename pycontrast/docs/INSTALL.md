@@ -24,7 +24,7 @@ You can set up the environments in your own way (`requirements.txt` has been pro
 	pip3 install -r requirements.txt
 	```
 4. (Optional) install [apex](https://github.com/NVIDIA/apex) if you would like to 
-try mixed precision training. If you do not want to take a look at that the 
+try mixed precision training. If you do not want to take a look at the 
 [apex](https://github.com/NVIDIA/apex) repo, the installing commands are (assuming pytorch 
 and CUDA are availabel):
     ```

@@ -15,35 +15,36 @@ the mixed precision feature.
 
 - (InstDis) Unsupervised Feature Learning via Non-parameteric Instance Discrimination
   [[pdf]](https://arxiv.org/pdf/1805.01978.pdf) 
-  - Zhirong Wu, Yuanjun Xiong and X Yu Stella and Dahua Lin.
   
 - (CMC) Contrastive Multiview Coding.
   [[pdf]](https://arxiv.org/abs/1906.05849) 
   [[project page]](https://hobbitlong.github.io/CMC/)
-  - Yonglong Tian and Dilip Krishnan and Phillip Isola.
 
 - (MoCo) Momentum Contrast for Unsupervised Visual Representation Learning
   [[pdf]](https://arxiv.org/pdf/1911.05722.pdf)
-  - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick.
 
 - (PIRL) Self-Supervised Learning of Pretext-Invariant Representations
   [[pdf]](https://arxiv.org/abs/1912.01991)
-  - Ishan Misra, Laurens van der Maaten.
 
 - (MoCo v2) Improved Baselines with Momentum Contrastive Learning
   [[pdf]](https://arxiv.org/pdf/2003.04297.pdf)
-  - Xinlei Chen, Haoqi Fan, Ross Girshick, Kaiming He
 
 - (InfoMin) What Makes for Good Views for Contrastive Learning?
   [[pdf]](https://arxiv.org/pdf/2005.10243.pdf)
   [[project page]](https://hobbitlong.github.io/InfoMin/)
-  - Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola 
 
 **(2) The following figure illustrates the similarity and dissimilarity between these methods, 
 in terms of training pipeline. Question mark `?` means unreported methods which are also supported.**
 <p align="center">
   <img src="figures/models.png" width="600">
 </p>
+
+**(3) TODO:**
+- (SimCLR) A Simple Framework for Contrastive Learning of Visual Representations
+  [[pdf]](https://arxiv.org/pdf/1805.01978.pdf) [[Prototype Implementation]](https://github.com/HobbitLong/SupContrast)
+
+- (SupCon) Supervised Contrastive Learning
+  [[pdf]](https://arxiv.org/abs/2004.11362) [[Prototype Implementation]](https://github.com/HobbitLong/SupContrast)
 
 
 ### Results on ImageNet linear readout benchmark
@@ -74,8 +75,9 @@ Please see [INSTALL.md](docs/INSTALL.md).
 For training and testing different models, please see [RUN.md](docs/RUN.md).
 
 ### Model Zoo
-For pre-trained models and results, please check [MODEL_ZOO.md](docs/MODEL_ZOO.md)
+For pre-trained models and results, please check [MODEL_ZOO.md](docs/MODEL_ZOO.md).
 
-### Detection
+### Object Detection
+Please check [detection](detection).
 
  
