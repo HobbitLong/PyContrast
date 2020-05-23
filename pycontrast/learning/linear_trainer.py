@@ -60,15 +60,29 @@ class LinearTrainer(BaseTrainer):
         if args.ckpt:
             ckpt = torch.load(args.ckpt, map_location='cpu')
             state_dict = ckpt['model']
-            new_state_dict = OrderedDict()
-            for k, v in state_dict.items():
-                # remove '.module'
-                k = k.replace('module.', '')
-                # only load encoder weights, ignore heads weights
-                if 'encoder' in k:
-                    k = k.replace('encoder.', '')
-                    new_state_dict[k] = v
-            model.encoder.load_state_dict(new_state_dict)
+            if args.modal == 'RGB':
+                # Unimodal (RGB) case
+                encoder_state_dict = OrderedDict()
+                for k, v in state_dict.items():
+                    k = k.replace('module.', '')
+                    if 'encoder' in k:
+                        k = k.replace('encoder.', '')
+                        encoder_state_dict[k] = v
+                model.encoder.load_state_dict(encoder_state_dict)
+            else:
+                # Multimodal (CMC) case
+                encoder1_state_dict = OrderedDict()
+                encoder2_state_dict = OrderedDict()
+                for k, v in state_dict.items():
+                    k = k.replace('module.', '')
+                    if 'encoder1' in k:
+                        k = k.replace('encoder1.', '')
+                        encoder1_state_dict[k] = v
+                    if 'encoder2' in k:
+                        k = k.replace('encoder2.', '')
+                        encoder2_state_dict[k] = v
+                model.encoder1.load_state_dict(encoder1_state_dict)
+                model.encoder2.load_state_dict(encoder2_state_dict)
             print('Pre-trained weights loaded!')
         else:
             print('==============================')
