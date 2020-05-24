@@ -1,13 +1,15 @@
-## PyContrast
+# PyContrast
 
-This repo lists recent contrastive learning methods, and includes as a set of reference implementations.
+This repo lists recent contrastive learning **papers**, and includes **code** for many of them.
 
-### Awesome-Contrastive-Learning
-Find a list of contrastive learning [paper](AWESOME_CONTRASTIVE_LEARNING.md)
+## Paper List
+Find awesome contrastive learning [paper](AWESOME_CONTRASTIVE_LEARNING.md).
 
-### PyTorch Code of SoTA Contrastive Learning Methods
+## PyTorch Code
 For the reference implementation of SoTA methods, (e.g., InstDis, CMC, MoCo, ...), see [pycontrast](pycontrast).
 
-### SoTA unsupervised pre-trained models
-A set of ImageNet unsupervised pre-trained models that outperforms their supervised counterparts 
-when transferring to COCO and Pascal VOC. Find them in [MODEL_ZOO.md](pycontrast/docs/MODEL_ZOO.md)
+## Pre-trained Models
+A set of ImageNet unsupervised pre-training models are provided. Find them in [model zoo](pycontrast/docs/MODEL_ZOO.md).
+
+## Object Detection
+Unsupervised pre-training models outperform supervised pre-training models on PASCAL VOC and COCO. Find [detection](pycontrast/detection)
