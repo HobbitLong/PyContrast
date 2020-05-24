@@ -1,0 +1,28 @@
+_BASE_: "Base-RCNN-FPN.yaml"
+MODEL:
+  MASK_ON: True
+  WEIGHTS: "detectron2://ImageNetPretrained/FAIR/X-101-32x8d.pkl"
+  PIXEL_STD: [57.375, 57.120, 58.395]
+  BACKBONE:
+    FREEZE_AT: 0
+  RESNETS:
+    STRIDE_IN_1X1: False  # this is a C2 model
+    NUM_GROUPS: 32
+    WIDTH_PER_GROUP: 8
+    DEPTH: 101
+    NORM: "SyncBN"
+  FPN:
+    NORM: "SyncBN"
+  ROI_BOX_HEAD:
+    NAME: "FastRCNNConvFCHead"
+    NUM_CONV: 4
+    NUM_FC: 1
+    NORM: "SyncBN"
+  ROI_MASK_HEAD:
+    NORM: "SyncBN"
+TEST:
+  PRECISE_BN:
+    ENABLED: True
+SOLVER:
+  STEPS: (60000, 80000)
+  MAX_ITER: 90000

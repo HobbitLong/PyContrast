@@ -1,0 +1,4 @@
+_BASE_: "X_101_FPN_1x_infomin.yaml"
+SOLVER:
+  STEPS: (120000, 160000)
+  MAX_ITER: 180000
