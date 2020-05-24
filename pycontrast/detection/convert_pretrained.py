@@ -1,3 +1,5 @@
+# disclaimer: inspired by MoCo official repo.
+
 import pickle as pkl
 import torch
 import argparse
