@@ -12,4 +12,4 @@ For the reference implementation of SoTA methods, (e.g., InstDis, CMC, MoCo, ...
 A set of ImageNet unsupervised pre-training models are provided. Find them in [model zoo](pycontrast/docs/MODEL_ZOO.md).
 
 ## Object Detection
-Unsupervised pre-training models outperform supervised pre-training models on PASCAL VOC and COCO. Find [detection](pycontrast/detection)
+Unsupervised pre-training models outperform supervised pre-training models on PASCAL VOC and COCO. Find in [detection](pycontrast/detection).
