@@ -13,32 +13,37 @@ if __name__ == "__main__":
                         help='using ema model')
     args = parser.parse_args()
 
-    obj = torch.load(args.input, map_location="cpu")
+    ckpt = torch.load(args.input, map_location="cpu")
     if args.ema:
-        obj = obj["model_ema"]
+        state_dict = ckpt["model_ema"]
         prefix = "encoder."
     else:
-        obj = obj["model"]
+        state_dict = ckpt["model"]
         prefix = "module.encoder."
 
-    newmodel = {}
-    for k, v in obj.items():
+    new_state_dict = {}
+    for k, v in state_dict.items():
         if not k.startswith(prefix):
             continue
         old_k = k
         k = k.replace(prefix, "")
         if "layer" not in k:
             k = "stem." + k
-        for t in [1, 2, 3, 4]:
-            k = k.replace("layer{}".format(t), "res{}".format(t + 1))
-        for t in [1, 2, 3]:
-            k = k.replace("bn{}".format(t), "conv{}.norm".format(t))
+        k = k.replace("layer1", "res2")
+        k = k.replace("layer2", "res3")
+        k = k.replace("layer3", "res4")
+        k = k.replace("layer4", "res5")
+        k = k.replace("bn1", "conv1.norm")
+        k = k.replace("bn2", "conv2.norm")
+        k = k.replace("bn3", "conv3.norm")
         k = k.replace("downsample.0", "shortcut")
         k = k.replace("downsample.1", "shortcut.norm")
         print(old_k, "->", k)
-        newmodel[k] = v.numpy()
+        new_state_dict[k] = v.numpy()
 
-    res = {"model": newmodel, "__author__": "Yonglong", "matching_heuristics": True}
+    res = {"model": new_state_dict,
+           "__author__": "Yonglong",
+           "matching_heuristics": True}
 
     with open(args.output, "wb") as f:
         pkl.dump(res, f)
