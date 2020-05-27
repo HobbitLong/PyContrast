@@ -49,6 +49,12 @@ None-ImageNet:
 
 - Supervised Contrastive Learning. [[Paper]](https://arxiv.org/abs/2004.11362)
 
+### Contrastive Learning in Videos
+
+- Time-Contrastive Networks: Self-Supervised Learning from Video. [[Paper]](https://arxiv.org/abs/1704.06888)
+
+- Contrastive Multiview Coding. [[Paper]](https://arxiv.org/abs/1906.05849) 
+
 ### Language Contrastive Learning
 
 - Distributed Representations of Words and Phrases and their Compositionality [[Paper]](https://arxiv.org/abs/1310.4546)
