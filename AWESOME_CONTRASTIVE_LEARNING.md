@@ -1,4 +1,4 @@
-## Awesome-Contrastive-Learning
+## Awesome Contrastive Learning
 
 
 ### General
