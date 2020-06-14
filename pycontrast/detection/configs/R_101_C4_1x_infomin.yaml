@@ -1,0 +1,9 @@
+_BASE_: "R_101_C4_1x.yaml"
+MODEL:
+  WEIGHTS: "See Instructions"
+  PIXEL_MEAN: [123.675, 116.280, 103.530]
+  PIXEL_STD: [58.395, 57.120, 57.375]
+  RESNETS:
+    STRIDE_IN_1X1: False
+INPUT:
+  FORMAT: "RGB"
