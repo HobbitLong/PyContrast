@@ -65,8 +65,8 @@ in terms of training pipeline. Question mark `?` means unreported methods which 
 |----------|:----:|:---:|:---:|:---:|
 |  InfoMin         | ResNet-101  | 43M   | 300 |  73.4  |
 |  InfoMin         | ResNet-152  | 58M   | 200 |  73.4  |
-|  InfoMin         | ResNeXt-100 | 87M   | 200 |  74.5  | 
-|  InfoMin         | ResNeXt-150 | 120M  | 200 |  75.2  |
+|  InfoMin         | ResNeXt-101 | 87M   | 200 |  74.5  | 
+|  InfoMin         | ResNeXt-152 | 120M  | 200 |  75.2  |
 
 ### Install Environments
 Please see [INSTALL.md](docs/INSTALL.md).
