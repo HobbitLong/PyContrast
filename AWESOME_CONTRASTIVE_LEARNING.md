@@ -45,6 +45,10 @@ None-ImageNet:
 
 - Unsupervised embedding learning via invariant and spreading instance feature. [[Paper]](https://arxiv.org/abs/1904.03436)
 
+- Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning [[Paper]](https://arxiv.org/pdf/2006.07733.pdf)
+  
+- Big Self-Supervised Models are Strong Semi-Supervised Learners [[Paper]](https://arxiv.org/pdf/2006.10029v1.pdf)
+
 ### Supervised Image Contrastive Learning
 
 - Supervised Contrastive Learning. [[Paper]](https://arxiv.org/abs/2004.11362)
