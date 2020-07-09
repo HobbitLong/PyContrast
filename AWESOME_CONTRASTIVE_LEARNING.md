@@ -57,7 +57,6 @@ None-ImageNet:
 
 - wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations. [[Paper]](https://arxiv.org/pdf/2006.11477.pdf)  
 
-
 ### Contrastive Learning in Videos
 
 - Time-Contrastive Networks: Self-Supervised Learning from Video. [[Paper]](https://arxiv.org/abs/1704.06888)
