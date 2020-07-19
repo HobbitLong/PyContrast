@@ -75,9 +75,9 @@ None-ImageNet:
 
 ### Contrastive Learning in Graph
 
-- Contrastive Multi-View Representation Learning on Graphs [ICML 2020]  [[Paper]](https://arxiv.org/abs/2006.05582)
+- Contrastive Multi-View Representation Learning on Graphs. [ICML 2020]  [[Paper]](https://arxiv.org/abs/2006.05582)
 
 - GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training. [KDD 2020] [[Paper]](https://arxiv.org/abs/2006.09963)
 
-- InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization [ICLR 2020] [[Paper]](https://arxiv.org/abs/1908.01000)
+- InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization. [ICLR 2020] [[Paper]](https://arxiv.org/abs/1908.01000)
 
