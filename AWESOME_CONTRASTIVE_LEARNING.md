@@ -83,3 +83,6 @@ None-ImageNet:
 
 - InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization. [ICLR 2020] [[Paper]](https://arxiv.org/abs/1908.01000)
 
+### Applications
+
+- Contrastive Learning for Unpaired Image-to-Image Translation
