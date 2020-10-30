@@ -28,7 +28,7 @@ class JigsawCrop(object):
         self.n_grid = n_grid
         self.img_size = img_size
         self.crop_size = crop_size
-        self.grid_size = int(img_size / 3)
+        self.grid_size = int(img_size / self.n_grid)
         self.side = self.grid_size - self.crop_size
 
         yy, xx = np.meshgrid(np.arange(n_grid), np.arange(n_grid))
