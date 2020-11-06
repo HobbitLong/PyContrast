@@ -10,7 +10,7 @@ It supports multi-node distributed training (e.g., 32 GPUs across 4 machines) an
 the mixed precision feature.
 
 ### Reference
-This repo is developed for the following paper:
+This repo is developed when writing the following paper:
 ```
 @inproceedings{tian2020makes,
   title={What makes for good views for contrastive learning},
