@@ -9,6 +9,18 @@ evaluation pipeline.
 It supports multi-node distributed training (e.g., 32 GPUs across 4 machines) and 
 the mixed precision feature.
 
+### Reference
+This repo is developed for the following paper:
+```
+@inproceedings{tian2020makes,
+  title={What makes for good views for contrastive learning},
+  author={Tian, Yonglong and Sun, Chen and Poole, Ben and Krishnan, Dilip and Schmid, Cordelia and Isola, Phillip},
+  booktitle={NeurIPS},
+  year={2020}
+}
+```
+If you find this repo useful for your research, please consider citing it.
+
 ### Contents
 **(1) For now, it covers the following methods as well as their combinations 
 (the order follows the forward arrow of time):**
