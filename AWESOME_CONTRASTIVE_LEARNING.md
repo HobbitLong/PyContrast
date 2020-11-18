@@ -63,6 +63,22 @@ None-ImageNet:
 
 - Contrastive Multiview Coding. [[Paper]](https://arxiv.org/abs/1906.05849) 
 
+- Learning Video Representations using Contrastive Bidirectional Transformer. [[Paper]](https://arxiv.org/abs/1906.05743v2) 
+
+- End-to-End Learning of Visual Representations from Uncurated Instructional Videos. [[Paper]](https://arxiv.org/abs/1912.06430) 
+
+- Multi-modal Self-Supervision from Generalized Data Transformations. [[Paper]](https://arxiv.org/abs/2003.04298) 
+
+- AVLnet: Learning Audio-Visual Language Representations from Instructional Videos. [[Paper]](https://arxiv.org/abs/2006.09199) 
+
+- Self-Supervised MultiModal Versatile Networks. [[Paper]](https://arxiv.org/abs/2006.16228) 
+
+- Memory-augmented Dense Predictive Coding for Video Representation Learning. [[Paper]](https://arxiv.org/abs/2008.01065) 
+
+- Spatiotemporal Contrastive Video Representation Learning [[Paper]](https://arxiv.org/abs/2008.03800) 
+
+- Self-supervised Co-training for Video Representation Learning [[Paper]](https://arxiv.org/abs/2010.09709) 
+
 ### Language Contrastive Learning
 
 - Distributed Representations of Words and Phrases and their Compositionality [[Paper]](https://arxiv.org/abs/1310.4546)
