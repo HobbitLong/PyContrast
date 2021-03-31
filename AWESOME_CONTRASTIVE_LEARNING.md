@@ -13,6 +13,8 @@
 
 - Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere [[Paper]](https://arxiv.org/abs/2005.10242)
 
+- How Well Do Self-Supervised Models Transfer? [[Paper]](https://arxiv.org/abs/2011.13377)
+
 ### Unsupervised Image Contrastive Learning
 
 ImageNet:
