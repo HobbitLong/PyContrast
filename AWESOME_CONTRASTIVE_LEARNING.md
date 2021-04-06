@@ -3,6 +3,8 @@
 
 ### General
 
+- A Survey on Contrastive Self-supervised Learning [[Paper]](https://arxiv.org/pdf/2011.00362.pdf)
+
 - Dimensionality Reduction by Learning an Invariant Mapping. [[Paper]](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)
 
 - Improved Deep Metric Learning with Multi-class N-pair Loss Objective. [[Paper]](https://papers.nips.cc/paper/6200-improved-deep-metric-learning-with-multi-class-n-pair-loss-objective).
