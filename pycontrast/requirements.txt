@@ -3,7 +3,7 @@
 https://download.pytorch.org/whl/cu100/torch-1.2.0-cp36-cp36m-manylinux1_x86_64.whl
 torchvision==0.2.1
 numpy>=1.14.3
-scipy==1.2.1
+scipy==1.10.0
 scikit-image==0.14.3
 pillow==9.3.0
 tensorboard_logger
