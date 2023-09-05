@@ -5,7 +5,7 @@ torchvision==0.2.1
 numpy>=1.14.3
 scipy==1.2.1
 scikit-image==0.14.3
-pillow==6.1.0
+pillow==9.3.0
 tensorboard_logger
 matplotlib
 seaborn
