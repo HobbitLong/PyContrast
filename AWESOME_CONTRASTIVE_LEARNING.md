@@ -103,4 +103,6 @@ None-ImageNet:
 
 ### Applications
 
-- Contrastive Learning for Unpaired Image-to-Image Translation
+- Contrastive Learning for Unpaired Image-to-Image Translation [[Paper]](https://arxiv.org/abs/2007.15651)
+
+- Social NCE: Contrastive Learning of Socially-aware Motion Representations [[Paper]](https://arxiv.org/abs/2012.11717)
