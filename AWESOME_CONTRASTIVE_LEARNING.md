@@ -1,5 +1,8 @@
 ## Awesome Contrastive Learning
 
+### Review
+
+- Contrastive Representation Learning: A Framework and Review. [[Paper]](https://arxiv.org/abs/2010.05113)
 
 ### General
 
